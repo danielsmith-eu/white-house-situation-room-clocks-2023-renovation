@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+.sitroom {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+  max-width: 7em;
+  display: block;
+  user-select: none;
+  
+  /* this makes it match the width of the window, i.e. massive */
+/*   font-size: 14vw; */
+  
+  font-size: 1em;
+}
+.mics {
+  width: 100%;
+  font-size: 1.25em;
+  padding: 0.5em 0 0.5em 0;
+}
+.mics-on {
+  color: #00ff00;
+}
+.mics-off {
+  color: #ff0000;
+}
+.class-and-clocks {
+  display: flex;
+  height: 100%;
+}
+.class-container {
+  flex-basis: content;
+}
+.class-inner {
+  height: 100%;
+  display: flex;
+}
+.class {
+  color: black;
+  overflow-wrap: break-word;
+  padding: 0.5em;  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.class-text {
+  width: 1ch;
+}
+.class-u {
+  background-color: #007a33;
+}
+.class-cui {
+  background-color: #502b85;
+}
+.class-c {
+  background-color: #0033a0;
+}
+.class-s {
+  background-color: #c8102e; }
+.class-ts {
+  background-color: #ff8c00;
+}
+.class-tssci {
+  background-color: #fce83a;
+  color: gray;
+}
+.clocks {
+  flex: 4;
+/*   flex-basis: auto; */
+}
+.clock {
+  padding: 0.5em 0 0.5em 0;
+}
+.clock-time {
+  color: red;
+}
